@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+  background: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+.btn-star {
+  background-color: hsla(210, 19%, 18%, 1);
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  color: hsla(222, 9%, 56%, 1);
+}
+.submit {
+  background-color: hsl(25, 97%, 53%) !important;
+  color: hsl(0, 0%, 100%) !important;
+}
+.card {
+  background: linear-gradient(135.15deg, #1e252f -3.08%, #171e28 101.69%);
+  width: 315px;
+  height: 420px;
+}
+@media (min-width: 660px) {
+  .card {
+    width: 400px;
+    height: 400px;
+  }
+}
